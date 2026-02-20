@@ -20,7 +20,7 @@ const ExpenseTracker = () => {
 
   return (
     <Card className={classes.root}>
-      <CardHeader title="World Expense Tracker" subheader="Powered by the Wo" />
+      <CardHeader title="World Expense Tracker" subheader="Powered by the World Bank" />
       <CardContent>
         <Typography align="center" variant="h5">
           Total Balance ${balance}
