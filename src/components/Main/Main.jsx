@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import {
   Card,
   CardHeader,
@@ -7,7 +7,7 @@ import {
   Grid,
   Divider,
 } from "@material-ui/core";
-import { useSpeechContext } from "@speechly/react-client";
+
 import { ExpenseTrackerContext } from "../../context/context";
 import useStyles from "./styles";
 import Form from "./Form/Form";
@@ -20,7 +20,7 @@ const ExpenseTracker = () => {
 
   return (
     <Card className={classes.root}>
-      <CardHeader title="World Expense Tracker" subheader="Powered by the World Bank" />
+      <CardHeader title="World Expense Tracker" subheader="Powered by the Wo" />
       <CardContent>
         <Typography align="center" variant="h5">
           Total Balance ${balance}
