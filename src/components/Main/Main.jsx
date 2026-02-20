@@ -20,7 +20,7 @@ const ExpenseTracker = () => {
 
   return (
     <Card className={classes.root}>
-      <CardHeader title="Employee Expense Tracker" subheader="Powered by Manchester City F.C" />
+      <CardHeader title="Private Expense Tracker" subheader="Powered by EverydaySpy" />
       <CardContent>
         <Typography align="center" variant="h5">
           Total Balance ${balance}
